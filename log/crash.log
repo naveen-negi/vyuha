@@ -4210,3 +4210,1243 @@ riak_sysmon_filter:get_node_map: error badarg @ [{ets,match_object,[sys_dist,'_'
     stack_size: 27
     reductions: 114
   neighbours:
+2017-01-07 09:22:32 =ERROR REPORT====
+** Generic server riak_core_capability terminating 
+** Last message in was {register,{riak_core,vnode_routing},{capability,[proxy,legacy],legacy,{riak_core,legacy_vnode_routing,[{true,legacy},{false,proxy}]}}}
+** When Server state == {state,[],undefined,[],[],[]}
+** Reason for termination == 
+** {function_clause,[{orddict,fetch,['nav@nn.domain.name',[]],[{file,"orddict.erl"},{line,80}]},{riak_core_capability,renegotiate_capabilities,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,441}]},{riak_core_capability,handle_call,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,213}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:22:32 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_capability:init/1
+    pid: <0.291.0>
+    registered_name: riak_core_capability
+    exception exit: {{function_clause,[{orddict,fetch,['nav@nn.domain.name',[]],[{file,"orddict.erl"},{line,80}]},{riak_core_capability,renegotiate_capabilities,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,441}]},{riak_core_capability,handle_call,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,213}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_sup,<0.253.0>]
+    messages: []
+    links: [<0.254.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 355
+  neighbours:
+2017-01-07 09:22:32 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{orddict,fetch,['nav@nn.domain.name',[]],[{file,"orddict.erl"},{line,80}]},{riak_core_capability,renegotiate_capabilities,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,441}]},{riak_core_capability,handle_call,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,213}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.291.0>},{id,riak_core_capability},{mfargs,{riak_core_capability,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:22:32 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.252.0>
+    registered_name: []
+    exception exit: {{bad_return,{{riak_core_app,start,[normal,[]]},{'EXIT',{{function_clause,[{orddict,fetch,['nav@nn.domain.name',[]],[{file,"orddict.erl"},{line,80}]},{riak_core_capability,renegotiate_capabilities,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,441}]},{riak_core_capability,handle_call,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,213}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_server,call,[riak_core_capability,{register,{riak_core,vnode_routing},{capability,[proxy,legacy],legacy,{riak_core,legacy_vnode_routing,[{true,legacy},{false,proxy}]}}},infinity]}}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.251.0>]
+    messages: [{'EXIT',<0.253.0>,normal}]
+    links: [<0.251.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 251
+  neighbours:
+2017-01-07 09:22:54 =ERROR REPORT====
+** Generic server riak_core_capability terminating 
+** Last message in was {register,{riak_core,vnode_routing},{capability,[proxy,legacy],legacy,{riak_core,legacy_vnode_routing,[{true,legacy},{false,proxy}]}}}
+** When Server state == {state,[],undefined,[],[],[]}
+** Reason for termination == 
+** {function_clause,[{orddict,fetch,[nav@localhost,[]],[{file,"orddict.erl"},{line,80}]},{riak_core_capability,renegotiate_capabilities,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,441}]},{riak_core_capability,handle_call,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,213}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:22:54 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_capability:init/1
+    pid: <0.283.0>
+    registered_name: riak_core_capability
+    exception exit: {{function_clause,[{orddict,fetch,[nav@localhost,[]],[{file,"orddict.erl"},{line,80}]},{riak_core_capability,renegotiate_capabilities,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,441}]},{riak_core_capability,handle_call,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,213}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_sup,<0.245.0>]
+    messages: []
+    links: [<0.246.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 355
+  neighbours:
+2017-01-07 09:22:54 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{orddict,fetch,[nav@localhost,[]],[{file,"orddict.erl"},{line,80}]},{riak_core_capability,renegotiate_capabilities,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,441}]},{riak_core_capability,handle_call,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,213}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.283.0>},{id,riak_core_capability},{mfargs,{riak_core_capability,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:22:54 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.244.0>
+    registered_name: []
+    exception exit: {{bad_return,{{riak_core_app,start,[normal,[]]},{'EXIT',{{function_clause,[{orddict,fetch,[nav@localhost,[]],[{file,"orddict.erl"},{line,80}]},{riak_core_capability,renegotiate_capabilities,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,441}]},{riak_core_capability,handle_call,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,213}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_server,call,[riak_core_capability,{register,{riak_core,vnode_routing},{capability,[proxy,legacy],legacy,{riak_core,legacy_vnode_routing,[{true,legacy},{false,proxy}]}}},infinity]}}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.243.0>]
+    messages: [{'EXIT',<0.245.0>,normal}]
+    links: [<0.243.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 251
+  neighbours:
+2017-01-07 09:23:34 =ERROR REPORT====
+** Generic server riak_core_capability terminating 
+** Last message in was {register,{riak_core,vnode_routing},{capability,[proxy,legacy],legacy,{riak_core,legacy_vnode_routing,[{true,legacy},{false,proxy}]}}}
+** When Server state == {state,[],undefined,[],[],[]}
+** Reason for termination == 
+** {function_clause,[{orddict,fetch,[nav@localhost,[]],[{file,"orddict.erl"},{line,80}]},{riak_core_capability,renegotiate_capabilities,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,441}]},{riak_core_capability,handle_call,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,213}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:23:34 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_capability:init/1
+    pid: <0.283.0>
+    registered_name: riak_core_capability
+    exception exit: {{function_clause,[{orddict,fetch,[nav@localhost,[]],[{file,"orddict.erl"},{line,80}]},{riak_core_capability,renegotiate_capabilities,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,441}]},{riak_core_capability,handle_call,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,213}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_sup,<0.245.0>]
+    messages: []
+    links: [<0.246.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 355
+  neighbours:
+2017-01-07 09:23:34 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{orddict,fetch,[nav@localhost,[]],[{file,"orddict.erl"},{line,80}]},{riak_core_capability,renegotiate_capabilities,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,441}]},{riak_core_capability,handle_call,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,213}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.283.0>},{id,riak_core_capability},{mfargs,{riak_core_capability,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:23:34 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.244.0>
+    registered_name: []
+    exception exit: {{bad_return,{{riak_core_app,start,[normal,[]]},{'EXIT',{{function_clause,[{orddict,fetch,[nav@localhost,[]],[{file,"orddict.erl"},{line,80}]},{riak_core_capability,renegotiate_capabilities,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,441}]},{riak_core_capability,handle_call,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_capability.erl"},{line,213}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,629}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,661}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_server,call,[riak_core_capability,{register,{riak_core,vnode_routing},{capability,[proxy,legacy],legacy,{riak_core,legacy_vnode_routing,[{true,legacy},{false,proxy}]}}},infinity]}}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.243.0>]
+    messages: [{'EXIT',<0.245.0>,normal}]
+    links: [<0.243.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 251
+  neighbours:
+2017-01-07 09:24:12 =ERROR REPORT====
+Error in process <0.326.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:24:12 =ERROR REPORT====
+** State machine <0.328.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:24:12 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.328.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.327.0>,#Ref<0.0.3.28>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:24:12 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.328.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:24:12 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.328.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.279.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:24:22 =ERROR REPORT====
+Error in process <0.335.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:24:22 =ERROR REPORT====
+** State machine <0.336.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:24:22 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.336.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.334.0>,#Ref<0.0.3.60>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:24:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.336.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:24:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.336.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.330.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:24:22 =ERROR REPORT====
+Error in process <0.341.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:24:22 =ERROR REPORT====
+** State machine <0.342.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:24:22 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.342.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.340.0>,#Ref<0.0.1.11>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:24:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.342.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:24:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.342.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.337.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:24:32 =ERROR REPORT====
+Error in process <0.347.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:24:32 =ERROR REPORT====
+** State machine <0.349.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:24:32 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.349.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.348.0>,#Ref<0.0.1.17>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:24:32 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.349.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:24:32 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.349.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.343.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:24:32 =ERROR REPORT====
+Error in process <0.353.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:24:32 =ERROR REPORT====
+** State machine <0.354.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:24:32 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.354.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.352.0>,#Ref<0.0.3.108>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:24:32 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.354.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:24:32 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.354.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.350.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:24:32 =ERROR REPORT====
+Error in process <0.359.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:24:32 =ERROR REPORT====
+** State machine <0.360.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:24:32 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.360.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.358.0>,#Ref<0.0.6.53>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:24:32 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.360.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:24:32 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.360.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.355.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:24:32 =ERROR REPORT====
+Error in process <0.364.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:24:32 =ERROR REPORT====
+** State machine <0.365.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:24:32 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.365.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.363.0>,#Ref<0.0.5.23>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:24:32 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.365.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:24:32 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.365.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.361.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:24:42 =ERROR REPORT====
+Error in process <0.370.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:24:42 =ERROR REPORT====
+** State machine <0.372.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:24:42 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.372.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.371.0>,#Ref<0.0.3.159>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:24:42 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.372.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:24:42 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.372.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.366.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:24:42 =ERROR REPORT====
+Error in process <0.376.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:24:42 =ERROR REPORT====
+** State machine <0.377.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:24:42 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.377.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.375.0>,#Ref<0.0.5.31>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:24:42 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.377.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:24:42 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.377.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.373.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:24:42 =ERROR REPORT====
+Error in process <0.382.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:24:42 =ERROR REPORT====
+** State machine <0.383.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:24:42 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.383.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.381.0>,#Ref<0.0.3.192>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:24:42 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.383.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:24:42 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.383.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.379.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:24:52 =ERROR REPORT====
+Error in process <0.388.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:24:52 =ERROR REPORT====
+** State machine <0.390.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:24:52 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.390.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.389.0>,#Ref<0.0.5.42>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:24:52 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.390.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:24:52 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.390.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.384.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:24:52 =ERROR REPORT====
+Error in process <0.393.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:24:52 =ERROR REPORT====
+** State machine <0.395.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:24:52 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.395.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.394.0>,#Ref<0.0.3.228>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:24:52 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.395.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:24:52 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.395.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.391.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:24:52 =ERROR REPORT====
+Error in process <0.400.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:24:52 =ERROR REPORT====
+** State machine <0.401.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:24:52 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.401.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.399.0>,#Ref<0.0.3.245>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:24:52 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.401.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:24:52 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.401.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.396.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:24:52 =ERROR REPORT====
+Error in process <0.404.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:24:52 =ERROR REPORT====
+** State machine <0.406.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:24:52 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.406.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.405.0>,#Ref<0.0.3.259>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:24:52 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.406.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:24:52 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.406.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.402.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:02 =ERROR REPORT====
+Error in process <0.413.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:25:02 =ERROR REPORT====
+** State machine <0.415.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:25:02 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.415.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.414.0>,#Ref<0.0.5.74>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:25:02 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.415.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:25:02 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.415.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.407.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:02 =ERROR REPORT====
+Error in process <0.418.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:25:02 =ERROR REPORT====
+** State machine <0.420.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:25:02 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.420.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.419.0>,#Ref<0.0.3.277>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:25:02 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.420.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:25:02 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.420.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.416.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:02 =ERROR REPORT====
+Error in process <0.424.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:25:02 =ERROR REPORT====
+** State machine <0.425.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:25:02 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.425.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.423.0>,#Ref<0.0.3.292>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:25:02 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.425.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:25:02 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.425.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.421.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:02 =ERROR REPORT====
+Error in process <0.430.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:25:02 =ERROR REPORT====
+** State machine <0.431.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:25:02 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.431.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.429.0>,#Ref<0.0.3.304>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:25:02 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.431.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:25:02 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.431.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.427.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:12 =ERROR REPORT====
+Error in process <0.437.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:25:12 =ERROR REPORT====
+** State machine <0.438.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:25:12 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.438.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.436.0>,#Ref<0.0.3.313>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:25:12 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.438.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:25:12 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.438.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.432.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:12 =ERROR REPORT====
+Error in process <0.442.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:25:12 =ERROR REPORT====
+** State machine <0.443.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:25:12 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.443.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.441.0>,#Ref<0.0.2.13>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:25:12 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.443.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:25:12 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.443.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.439.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:12 =ERROR REPORT====
+Error in process <0.447.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:25:12 =ERROR REPORT====
+** State machine <0.448.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:25:12 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.448.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.446.0>,#Ref<0.0.2.21>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:25:12 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.448.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:25:12 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.448.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.444.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:12 =ERROR REPORT====
+Error in process <0.452.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:25:12 =ERROR REPORT====
+** State machine <0.454.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:25:12 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.454.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.453.0>,#Ref<0.0.3.355>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:25:12 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.454.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:25:12 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.454.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.450.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:12 =ERROR REPORT====
+Error in process <0.458.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:25:12 =ERROR REPORT====
+** State machine <0.459.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:25:12 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.459.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.457.0>,#Ref<0.0.5.155>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:25:12 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.459.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:25:12 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.459.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.455.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:22 =ERROR REPORT====
+Error in process <0.465.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:25:22 =ERROR REPORT====
+** State machine <0.466.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:25:22 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.466.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.464.0>,#Ref<0.0.5.179>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:25:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.466.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:25:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.466.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.460.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:22 =ERROR REPORT====
+Error in process <0.470.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:25:22 =ERROR REPORT====
+** State machine <0.471.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:25:22 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.471.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.469.0>,#Ref<0.0.4.29>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:25:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.471.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:25:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.471.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.467.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:22 =ERROR REPORT====
+Error in process <0.475.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:25:22 =ERROR REPORT====
+** State machine <0.476.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:25:22 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.476.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.474.0>,#Ref<0.0.4.39>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:25:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.476.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.472.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.476.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:25:22 =ERROR REPORT====
+Error in process <0.480.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:25:22 =ERROR REPORT====
+** State machine <0.482.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:25:22 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.482.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.481.0>,#Ref<0.0.4.48>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:25:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.482.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:25:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.482.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.477.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:22 =ERROR REPORT====
+Error in process <0.486.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:25:22 =ERROR REPORT====
+** State machine <0.487.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:25:22 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.487.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.485.0>,#Ref<0.0.4.57>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:25:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.487.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:25:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.487.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.483.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:22 =ERROR REPORT====
+Error in process <0.491.0> on node 'nav@127.0.0.1' with exit value:
+{undef,[{'Elixir.Vyuha.Vnode',module_info,[exports],[]},{riak_core_ring_handler,'-ensure_vnodes_started/2-fun-0-',3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_ring_handler.erl"},{line,147}]}]}
+2017-01-07 09:25:22 =ERROR REPORT====
+** State machine <0.492.0> terminating 
+** Last event in was timeout
+** When State == started
+**      Data  == {state,0,'Elixir.Vyuha.Vnode',undefined,undefined,none,undefined,undefined,undefined,undefined,undefined,0}
+** Reason for termination = 
+** {'module could not be loaded',[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2017-01-07 09:25:22 =CRASH REPORT====
+  crasher:
+    initial call: riak_core_vnode:init/1
+    pid: <0.492.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,614}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_vnode_sup,riak_core_sup,<0.245.0>]
+    messages: [{'$gen_sync_event',{<0.490.0>,#Ref<0.0.3.408>},wait_for_init}]
+    links: [<0.249.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 237
+  neighbours:
+2017-01-07 09:25:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_vnode_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.492.0>},{name,undefined},{mfargs,{riak_core_vnode,start_link,undefined}},{restart_type,temporary},{shutdown,300000},{child_type,worker}]
+
+2017-01-07 09:25:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    child_terminated
+     Reason:     {{undef,[{'Elixir.Vyuha.Vnode',terminate,[{undef,[{'Elixir.Vyuha.Vnode',init,[[0]],[]},{riak_core_vnode,do_init,1,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,223}]},{riak_core_vnode,started,2,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,206}]},{gen_fsm,handle_msg,7,[{file,"gen_fsm.erl"},{line,518}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},undefined],[]},{riak_core_vnode,terminate,3,[{file,"/Users/navinnegi/Sites/Elixir/vyuha/deps/riak_core/src/riak_core_vnode.erl"},{line,892}]},{gen_fsm,terminate,7,[{file,"gen_fsm.erl"},{line,610}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_fsm,sync_send_event,[<0.492.0>,wait_for_init,infinity]}}
+     Offender:   [{pid,<0.488.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-01-07 09:25:22 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.488.0>},{id,riak_core_vnode_manager},{mfargs,{riak_core_vnode_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
