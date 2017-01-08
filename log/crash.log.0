@@ -1,0 +1,255 @@
+2017-01-07 13:26:46 =CRASH REPORT====
+  crasher:
+    initial call: gen_nb_server:init/1
+    pid: <0.264.0>
+    registered_name: riak_core_handoff_listener
+    exception exit: {{bad_return_value,{error,eaddrinuse}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,356}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_handoff_listener_sup,riak_core_handoff_sup,riak_core_sup,<0.253.0>]
+    messages: []
+    links: [<0.263.0>,<0.265.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 571
+  neighbours:
+    neighbour: [{pid,<0.265.0>},{registered_name,riak_kv_handoff_listener},{initial_call,{process_proxy,init,['Argument__1']}},{current_function,{process_proxy,loop,1}},{ancestors,[riak_core_handoff_listener,riak_core_handoff_listener_sup,riak_core_handoff_sup,riak_core_sup,<0.253.0>]},{messages,[]},{links,[<0.264.0>]},{dictionary,[]},{trap_exit,false},{status,waiting},{heap_size,233},{stack_size,4},{reductions,12}]
+2017-01-07 13:26:46 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_handoff_listener_sup}
+     Context:    start_error
+     Reason:     {bad_return_value,{error,eaddrinuse}}
+     Offender:   [{pid,undefined},{id,riak_core_handoff_listener},{mfargs,{riak_core_handoff_listener,start_link,[]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2017-01-07 13:26:46 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_handoff_sup}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}
+     Offender:   [{pid,undefined},{id,riak_core_handoff_listener_sup},{mfargs,{riak_core_handoff_listener_sup,start_link,[]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,supervisor}]
+
+2017-01-07 13:26:46 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}
+     Offender:   [{pid,undefined},{id,riak_core_handoff_sup},{mfargs,{riak_core_handoff_sup,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,supervisor}]
+
+2017-01-07 13:26:46 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.252.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,riak_core_handoff_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}}},{riak_core_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.251.0>]
+    messages: [{'EXIT',<0.253.0>,normal}]
+    links: [<0.251.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2017-01-07 13:27:00 =CRASH REPORT====
+  crasher:
+    initial call: gen_nb_server:init/1
+    pid: <0.256.0>
+    registered_name: riak_core_handoff_listener
+    exception exit: {{bad_return_value,{error,eaddrinuse}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,356}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_handoff_listener_sup,riak_core_handoff_sup,riak_core_sup,<0.245.0>]
+    messages: []
+    links: [<0.255.0>,<0.257.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 571
+  neighbours:
+    neighbour: [{pid,<0.257.0>},{registered_name,riak_kv_handoff_listener},{initial_call,{process_proxy,init,['Argument__1']}},{current_function,{process_proxy,loop,1}},{ancestors,[riak_core_handoff_listener,riak_core_handoff_listener_sup,riak_core_handoff_sup,riak_core_sup,<0.245.0>]},{messages,[]},{links,[<0.256.0>]},{dictionary,[]},{trap_exit,false},{status,waiting},{heap_size,233},{stack_size,4},{reductions,12}]
+2017-01-07 13:27:00 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_handoff_listener_sup}
+     Context:    start_error
+     Reason:     {bad_return_value,{error,eaddrinuse}}
+     Offender:   [{pid,undefined},{id,riak_core_handoff_listener},{mfargs,{riak_core_handoff_listener,start_link,[]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2017-01-07 13:27:00 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_handoff_sup}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}
+     Offender:   [{pid,undefined},{id,riak_core_handoff_listener_sup},{mfargs,{riak_core_handoff_listener_sup,start_link,[]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,supervisor}]
+
+2017-01-07 13:27:00 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}
+     Offender:   [{pid,undefined},{id,riak_core_handoff_sup},{mfargs,{riak_core_handoff_sup,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,supervisor}]
+
+2017-01-07 13:27:00 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.244.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,riak_core_handoff_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}}},{riak_core_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.243.0>]
+    messages: [{'EXIT',<0.245.0>,normal}]
+    links: [<0.243.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2017-01-07 13:28:52 =CRASH REPORT====
+  crasher:
+    initial call: gen_nb_server:init/1
+    pid: <0.264.0>
+    registered_name: riak_core_handoff_listener
+    exception exit: {{bad_return_value,{error,eaddrinuse}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,356}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_handoff_listener_sup,riak_core_handoff_sup,riak_core_sup,<0.253.0>]
+    messages: []
+    links: [<0.263.0>,<0.265.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 571
+  neighbours:
+    neighbour: [{pid,<0.265.0>},{registered_name,riak_kv_handoff_listener},{initial_call,{process_proxy,init,['Argument__1']}},{current_function,{process_proxy,loop,1}},{ancestors,[riak_core_handoff_listener,riak_core_handoff_listener_sup,riak_core_handoff_sup,riak_core_sup,<0.253.0>]},{messages,[]},{links,[<0.264.0>]},{dictionary,[]},{trap_exit,false},{status,waiting},{heap_size,233},{stack_size,4},{reductions,12}]
+2017-01-07 13:28:52 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_handoff_listener_sup}
+     Context:    start_error
+     Reason:     {bad_return_value,{error,eaddrinuse}}
+     Offender:   [{pid,undefined},{id,riak_core_handoff_listener},{mfargs,{riak_core_handoff_listener,start_link,[]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2017-01-07 13:28:52 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_handoff_sup}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}
+     Offender:   [{pid,undefined},{id,riak_core_handoff_listener_sup},{mfargs,{riak_core_handoff_listener_sup,start_link,[]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,supervisor}]
+
+2017-01-07 13:28:52 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}
+     Offender:   [{pid,undefined},{id,riak_core_handoff_sup},{mfargs,{riak_core_handoff_sup,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,supervisor}]
+
+2017-01-07 13:28:52 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.252.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,riak_core_handoff_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}}},{riak_core_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.251.0>]
+    messages: [{'EXIT',<0.253.0>,normal}]
+    links: [<0.251.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2017-01-07 13:30:13 =CRASH REPORT====
+  crasher:
+    initial call: gen_nb_server:init/1
+    pid: <0.264.0>
+    registered_name: riak_core_handoff_listener
+    exception exit: {{bad_return_value,{error,eaddrinuse}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,356}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_handoff_listener_sup,riak_core_handoff_sup,riak_core_sup,<0.253.0>]
+    messages: []
+    links: [<0.263.0>,<0.265.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 571
+  neighbours:
+    neighbour: [{pid,<0.265.0>},{registered_name,riak_kv_handoff_listener},{initial_call,{process_proxy,init,['Argument__1']}},{current_function,{process_proxy,loop,1}},{ancestors,[riak_core_handoff_listener,riak_core_handoff_listener_sup,riak_core_handoff_sup,riak_core_sup,<0.253.0>]},{messages,[]},{links,[<0.264.0>]},{dictionary,[]},{trap_exit,false},{status,waiting},{heap_size,233},{stack_size,4},{reductions,12}]
+2017-01-07 13:30:13 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_handoff_listener_sup}
+     Context:    start_error
+     Reason:     {bad_return_value,{error,eaddrinuse}}
+     Offender:   [{pid,undefined},{id,riak_core_handoff_listener},{mfargs,{riak_core_handoff_listener,start_link,[]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2017-01-07 13:30:13 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_handoff_sup}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}
+     Offender:   [{pid,undefined},{id,riak_core_handoff_listener_sup},{mfargs,{riak_core_handoff_listener_sup,start_link,[]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,supervisor}]
+
+2017-01-07 13:30:13 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}
+     Offender:   [{pid,undefined},{id,riak_core_handoff_sup},{mfargs,{riak_core_handoff_sup,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,supervisor}]
+
+2017-01-07 13:30:13 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.252.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,riak_core_handoff_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}}},{riak_core_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.251.0>]
+    messages: [{'EXIT',<0.253.0>,normal}]
+    links: [<0.251.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2017-01-07 13:30:32 =CRASH REPORT====
+  crasher:
+    initial call: gen_nb_server:init/1
+    pid: <0.256.0>
+    registered_name: riak_core_handoff_listener
+    exception exit: {{bad_return_value,{error,eaddrinuse}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,356}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [riak_core_handoff_listener_sup,riak_core_handoff_sup,riak_core_sup,<0.245.0>]
+    messages: []
+    links: [<0.255.0>,<0.257.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 571
+  neighbours:
+    neighbour: [{pid,<0.257.0>},{registered_name,riak_kv_handoff_listener},{initial_call,{process_proxy,init,['Argument__1']}},{current_function,{process_proxy,loop,1}},{ancestors,[riak_core_handoff_listener,riak_core_handoff_listener_sup,riak_core_handoff_sup,riak_core_sup,<0.245.0>]},{messages,[]},{links,[<0.256.0>]},{dictionary,[]},{trap_exit,false},{status,waiting},{heap_size,233},{stack_size,4},{reductions,12}]
+2017-01-07 13:30:32 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_handoff_listener_sup}
+     Context:    start_error
+     Reason:     {bad_return_value,{error,eaddrinuse}}
+     Offender:   [{pid,undefined},{id,riak_core_handoff_listener},{mfargs,{riak_core_handoff_listener,start_link,[]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,worker}]
+
+2017-01-07 13:30:32 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_handoff_sup}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}
+     Offender:   [{pid,undefined},{id,riak_core_handoff_listener_sup},{mfargs,{riak_core_handoff_listener_sup,start_link,[]}},{restart_type,permanent},{shutdown,brutal_kill},{child_type,supervisor}]
+
+2017-01-07 13:30:32 =SUPERVISOR REPORT====
+     Supervisor: {local,riak_core_sup}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}
+     Offender:   [{pid,undefined},{id,riak_core_handoff_sup},{mfargs,{riak_core_handoff_sup,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,supervisor}]
+
+2017-01-07 13:30:32 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.244.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,riak_core_handoff_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}}},{riak_core_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.243.0>]
+    messages: [{'EXIT',<0.245.0>,normal}]
+    links: [<0.243.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:

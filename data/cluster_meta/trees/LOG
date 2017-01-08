@@ -1,32 +1,32 @@
-2017/01/07-12:20:17.401697 70000b808000                        Version: 2.0.19
-2017/01/07-12:20:17.401721 70000b808000             Options.comparator: leveldb.InternalKeyComparator
-2017/01/07-12:20:17.401726 70000b808000      Options.create_if_missing: 1
-2017/01/07-12:20:17.401728 70000b808000        Options.error_if_exists: 0
-2017/01/07-12:20:17.401731 70000b808000        Options.paranoid_checks: 0
-2017/01/07-12:20:17.401733 70000b808000     Options.verify_compactions: 1
-2017/01/07-12:20:17.401735 70000b808000                    Options.env: 0x7f8500d00150
-2017/01/07-12:20:17.401737 70000b808000               Options.info_log: 0x7f8500d007c0
-2017/01/07-12:20:17.401739 70000b808000      Options.write_buffer_size: 4697295
-2017/01/07-12:20:17.401742 70000b808000         Options.max_open_files: 1000
-2017/01/07-12:20:17.401744 70000b808000            Options.block_cache: 0x7f8503001e00
-2017/01/07-12:20:17.401746 70000b808000             Options.block_size: 4096
-2017/01/07-12:20:17.401748 70000b808000       Options.block_size_steps: 16
-2017/01/07-12:20:17.401751 70000b808000 Options.block_restart_interval: 16
-2017/01/07-12:20:17.401762 70000b808000            Options.compression: 1
-2017/01/07-12:20:17.401764 70000b808000          Options.filter_policy: leveldb.BuiltinBloomFilter2
-2017/01/07-12:20:17.401767 70000b808000              Options.is_repair: false
-2017/01/07-12:20:17.401769 70000b808000         Options.is_internal_db: true
-2017/01/07-12:20:17.401771 70000b808000      Options.total_leveldb_mem: 1881858048
-2017/01/07-12:20:17.401773 70000b808000  Options.block_cache_threshold: 33554432
-2017/01/07-12:20:17.401775 70000b808000  Options.limited_developer_mem: false
-2017/01/07-12:20:17.401777 70000b808000              Options.mmap_size: 0
-2017/01/07-12:20:17.401780 70000b808000       Options.delete_threshold: 1000
-2017/01/07-12:20:17.401782 70000b808000       Options.fadvise_willneed: false
-2017/01/07-12:20:17.401784 70000b808000      Options.tiered_slow_level: 0
-2017/01/07-12:20:17.401786 70000b808000     Options.tiered_fast_prefix: data/cluster_meta/trees
-2017/01/07-12:20:17.401788 70000b808000     Options.tiered_slow_prefix: data/cluster_meta/trees
-2017/01/07-12:20:17.401790 70000b808000                         crc32c: hardware
-2017/01/07-12:20:17.401792 70000b808000   Options.cache_object_warming: true
-2017/01/07-12:20:17.401795 70000b808000                File cache size: 359239017
-2017/01/07-12:20:17.401797 70000b808000               Block cache size: 361336169
-2017/01/07-12:20:17.413044 70000b808000 Delete type=3 #1
+2017/01/08-09:57:13.425178 700005529000                        Version: 2.0.19
+2017/01/08-09:57:13.425214 700005529000             Options.comparator: leveldb.InternalKeyComparator
+2017/01/08-09:57:13.425219 700005529000      Options.create_if_missing: 1
+2017/01/08-09:57:13.425221 700005529000        Options.error_if_exists: 0
+2017/01/08-09:57:13.425224 700005529000        Options.paranoid_checks: 0
+2017/01/08-09:57:13.425226 700005529000     Options.verify_compactions: 1
+2017/01/08-09:57:13.425228 700005529000                    Options.env: 0x7fc16940ea40
+2017/01/08-09:57:13.425230 700005529000               Options.info_log: 0x7fc169412420
+2017/01/08-09:57:13.425232 700005529000      Options.write_buffer_size: 9138783
+2017/01/08-09:57:13.425235 700005529000         Options.max_open_files: 1000
+2017/01/08-09:57:13.425237 700005529000            Options.block_cache: 0x7fc169855c00
+2017/01/08-09:57:13.425239 700005529000             Options.block_size: 4096
+2017/01/08-09:57:13.425241 700005529000       Options.block_size_steps: 16
+2017/01/08-09:57:13.425244 700005529000 Options.block_restart_interval: 16
+2017/01/08-09:57:13.425246 700005529000            Options.compression: 1
+2017/01/08-09:57:13.425248 700005529000          Options.filter_policy: leveldb.BuiltinBloomFilter2
+2017/01/08-09:57:13.425250 700005529000              Options.is_repair: false
+2017/01/08-09:57:13.425253 700005529000         Options.is_internal_db: true
+2017/01/08-09:57:13.425255 700005529000      Options.total_leveldb_mem: 1938374860
+2017/01/08-09:57:13.425257 700005529000  Options.block_cache_threshold: 33554432
+2017/01/08-09:57:13.425259 700005529000  Options.limited_developer_mem: false
+2017/01/08-09:57:13.425261 700005529000              Options.mmap_size: 0
+2017/01/08-09:57:13.425263 700005529000       Options.delete_threshold: 1000
+2017/01/08-09:57:13.425265 700005529000       Options.fadvise_willneed: false
+2017/01/08-09:57:13.425268 700005529000      Options.tiered_slow_level: 0
+2017/01/08-09:57:13.425270 700005529000     Options.tiered_fast_prefix: data/cluster_meta/trees
+2017/01/08-09:57:13.425272 700005529000     Options.tiered_slow_prefix: data/cluster_meta/trees
+2017/01/08-09:57:13.425274 700005529000                         crc32c: hardware
+2017/01/08-09:57:13.425276 700005529000   Options.cache_object_warming: true
+2017/01/08-09:57:13.425278 700005529000                File cache size: 356329619
+2017/01/08-09:57:13.425280 700005529000               Block cache size: 358426771
+2017/01/08-09:57:13.436713 700005529000 Delete type=3 #1

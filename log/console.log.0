@@ -1,0 +1,367 @@
+2017-01-07 13:05:21.337 [info] <0.7.0> Application lager started on node 'nav@127.0.0.1'
+2017-01-07 13:05:21.357 [info] <0.7.0> Application sasl started on node 'nav@127.0.0.1'
+2017-01-07 13:05:21.361 [info] <0.7.0> Application riak_sysmon started on node 'nav@127.0.0.1'
+2017-01-07 13:05:21.380 [info] <0.7.0> Application os_mon started on node 'nav@127.0.0.1'
+2017-01-07 13:05:21.385 [info] <0.7.0> Application basho_stats started on node 'nav@127.0.0.1'
+2017-01-07 13:05:21.387 [info] <0.190.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2017-01-07 13:05:21.389 [info] <0.7.0> Application eleveldb started on node 'nav@127.0.0.1'
+2017-01-07 13:05:21.391 [info] <0.7.0> Application pbkdf2 started on node 'nav@127.0.0.1'
+2017-01-07 13:05:21.394 [info] <0.7.0> Application poolboy started on node 'nav@127.0.0.1'
+2017-01-07 13:05:21.405 [info] <0.220.0> Setup running ...
+2017-01-07 13:05:21.406 [info] <0.220.0> Directories verified. Res = ok
+2017-01-07 13:05:21.406 [info] <0.220.0> Setup finished processing hooks (Mode=normal)...
+2017-01-07 13:05:21.406 [info] <0.7.0> Application setup started on node 'nav@127.0.0.1'
+2017-01-07 13:05:21.421 [info] <0.227.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2017-01-07 13:05:21.421 [info] <0.7.0> Application exometer_core started on node 'nav@127.0.0.1'
+2017-01-07 13:05:21.445 [info] <0.7.0> Application clique started on node 'nav@127.0.0.1'
+2017-01-07 13:05:21.451 [info] <0.7.0> Application bear started on node 'nav@127.0.0.1'
+2017-01-07 13:05:21.456 [info] <0.7.0> Application folsom started on node 'nav@127.0.0.1'
+2017-01-07 13:05:21.492 [warning] <0.260.0>@riak_core_ring_manager:reload_ring:352 No ring file available.
+2017-01-07 13:05:21.614 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2017-01-07 13:05:21.622 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2017-01-07 13:05:21.631 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2017-01-07 13:05:21.640 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2017-01-07 13:05:21.648 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2017-01-07 13:05:21.656 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2017-01-07 13:05:21.665 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2017-01-07 13:05:21.696 [info] <0.7.0> Application riak_core started on node 'nav@127.0.0.1'
+2017-01-07 13:05:21.696 [info] <0.7.0> Application logger started on node 'nav@127.0.0.1'
+2017-01-07 13:05:21.708 [info] <0.7.0> Application vyuha started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.562 [info] <0.7.0> Application lager started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.580 [info] <0.7.0> Application sasl started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.585 [info] <0.7.0> Application riak_sysmon started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.605 [info] <0.7.0> Application os_mon started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.608 [info] <0.198.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2017-01-07 13:07:52.611 [info] <0.7.0> Application basho_stats started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.613 [info] <0.7.0> Application eleveldb started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.615 [info] <0.7.0> Application pbkdf2 started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.617 [info] <0.7.0> Application poolboy started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.628 [info] <0.228.0> Setup running ...
+2017-01-07 13:07:52.629 [info] <0.228.0> Directories verified. Res = ok
+2017-01-07 13:07:52.629 [info] <0.228.0> Setup finished processing hooks (Mode=normal)...
+2017-01-07 13:07:52.629 [info] <0.7.0> Application setup started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.643 [info] <0.235.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2017-01-07 13:07:52.643 [info] <0.7.0> Application exometer_core started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.666 [info] <0.7.0> Application clique started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.671 [info] <0.7.0> Application bear started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.676 [info] <0.7.0> Application folsom started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.835 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2017-01-07 13:07:52.844 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2017-01-07 13:07:52.852 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2017-01-07 13:07:52.859 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2017-01-07 13:07:52.867 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2017-01-07 13:07:52.874 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2017-01-07 13:07:52.881 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2017-01-07 13:07:52.914 [info] <0.7.0> Application riak_core started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.914 [info] <0.7.0> Application logger started on node 'nav@127.0.0.1'
+2017-01-07 13:07:52.926 [info] <0.7.0> Application vyuha started on node 'nav@127.0.0.1'
+2017-01-07 13:16:29.761 [info] <0.7.0> Application lager started on node 'nav@127.0.0.1'
+2017-01-07 13:16:29.781 [info] <0.7.0> Application sasl started on node 'nav@127.0.0.1'
+2017-01-07 13:16:29.785 [info] <0.7.0> Application riak_sysmon started on node 'nav@127.0.0.1'
+2017-01-07 13:16:29.807 [info] <0.7.0> Application os_mon started on node 'nav@127.0.0.1'
+2017-01-07 13:16:29.812 [info] <0.7.0> Application basho_stats started on node 'nav@127.0.0.1'
+2017-01-07 13:16:29.814 [info] <0.190.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2017-01-07 13:16:29.817 [info] <0.7.0> Application eleveldb started on node 'nav@127.0.0.1'
+2017-01-07 13:16:29.820 [info] <0.7.0> Application pbkdf2 started on node 'nav@127.0.0.1'
+2017-01-07 13:16:29.822 [info] <0.7.0> Application poolboy started on node 'nav@127.0.0.1'
+2017-01-07 13:16:29.833 [info] <0.220.0> Setup running ...
+2017-01-07 13:16:29.833 [info] <0.220.0> Directories verified. Res = ok
+2017-01-07 13:16:29.833 [info] <0.220.0> Setup finished processing hooks (Mode=normal)...
+2017-01-07 13:16:29.833 [info] <0.7.0> Application setup started on node 'nav@127.0.0.1'
+2017-01-07 13:16:29.845 [info] <0.227.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2017-01-07 13:16:29.845 [info] <0.7.0> Application exometer_core started on node 'nav@127.0.0.1'
+2017-01-07 13:16:29.866 [info] <0.7.0> Application clique started on node 'nav@127.0.0.1'
+2017-01-07 13:16:29.871 [info] <0.7.0> Application bear started on node 'nav@127.0.0.1'
+2017-01-07 13:16:29.876 [info] <0.7.0> Application folsom started on node 'nav@127.0.0.1'
+2017-01-07 13:16:30.028 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2017-01-07 13:16:30.036 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2017-01-07 13:16:30.044 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2017-01-07 13:16:30.052 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2017-01-07 13:16:30.060 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2017-01-07 13:16:30.067 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2017-01-07 13:16:30.074 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2017-01-07 13:16:30.103 [info] <0.7.0> Application riak_core started on node 'nav@127.0.0.1'
+2017-01-07 13:16:30.103 [info] <0.7.0> Application logger started on node 'nav@127.0.0.1'
+2017-01-07 13:16:30.113 [info] <0.7.0> Application vyuha started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.388 [info] <0.7.0> Application lager started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.406 [info] <0.7.0> Application sasl started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.410 [info] <0.7.0> Application riak_sysmon started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.428 [info] <0.7.0> Application os_mon started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.432 [info] <0.7.0> Application basho_stats started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.434 [info] <0.198.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2017-01-07 13:17:12.437 [info] <0.7.0> Application eleveldb started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.439 [info] <0.7.0> Application pbkdf2 started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.441 [info] <0.7.0> Application poolboy started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.452 [info] <0.228.0> Setup running ...
+2017-01-07 13:17:12.452 [info] <0.228.0> Directories verified. Res = ok
+2017-01-07 13:17:12.452 [info] <0.228.0> Setup finished processing hooks (Mode=normal)...
+2017-01-07 13:17:12.452 [info] <0.7.0> Application setup started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.465 [info] <0.235.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2017-01-07 13:17:12.465 [info] <0.7.0> Application exometer_core started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.487 [info] <0.7.0> Application clique started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.491 [info] <0.7.0> Application bear started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.496 [info] <0.7.0> Application folsom started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.645 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2017-01-07 13:17:12.654 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2017-01-07 13:17:12.662 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2017-01-07 13:17:12.670 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2017-01-07 13:17:12.678 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2017-01-07 13:17:12.686 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2017-01-07 13:17:12.695 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2017-01-07 13:17:12.726 [info] <0.7.0> Application riak_core started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.727 [info] <0.7.0> Application logger started on node 'nav@127.0.0.1'
+2017-01-07 13:17:12.738 [info] <0.7.0> Application vyuha started on node 'nav@127.0.0.1'
+2017-01-07 13:26:46.185 [info] <0.7.0> Application lager started on node 'nav_1@127.0.0.1'
+2017-01-07 13:26:46.202 [info] <0.7.0> Application sasl started on node 'nav_1@127.0.0.1'
+2017-01-07 13:26:46.207 [info] <0.7.0> Application riak_sysmon started on node 'nav_1@127.0.0.1'
+2017-01-07 13:26:46.227 [info] <0.7.0> Application os_mon started on node 'nav_1@127.0.0.1'
+2017-01-07 13:26:46.233 [info] <0.7.0> Application basho_stats started on node 'nav_1@127.0.0.1'
+2017-01-07 13:26:46.234 [info] <0.198.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2017-01-07 13:26:46.236 [info] <0.7.0> Application eleveldb started on node 'nav_1@127.0.0.1'
+2017-01-07 13:26:46.238 [info] <0.7.0> Application pbkdf2 started on node 'nav_1@127.0.0.1'
+2017-01-07 13:26:46.240 [info] <0.7.0> Application poolboy started on node 'nav_1@127.0.0.1'
+2017-01-07 13:26:46.251 [info] <0.228.0> Setup running ...
+2017-01-07 13:26:46.252 [info] <0.228.0> Directories verified. Res = ok
+2017-01-07 13:26:46.252 [info] <0.228.0> Setup finished processing hooks (Mode=normal)...
+2017-01-07 13:26:46.252 [info] <0.7.0> Application setup started on node 'nav_1@127.0.0.1'
+2017-01-07 13:26:46.268 [info] <0.235.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2017-01-07 13:26:46.268 [info] <0.7.0> Application exometer_core started on node 'nav_1@127.0.0.1'
+2017-01-07 13:26:46.291 [info] <0.7.0> Application clique started on node 'nav_1@127.0.0.1'
+2017-01-07 13:26:46.296 [info] <0.7.0> Application bear started on node 'nav_1@127.0.0.1'
+2017-01-07 13:26:46.301 [info] <0.7.0> Application folsom started on node 'nav_1@127.0.0.1'
+2017-01-07 13:26:46.333 [error] <0.264.0> CRASH REPORT Process riak_core_handoff_listener with 1 neighbours exited with reason: bad return value: {error,eaddrinuse} in gen_server:init_it/6 line 356
+2017-01-07 13:26:46.333 [error] <0.263.0> Supervisor riak_core_handoff_listener_sup had child riak_core_handoff_listener started with riak_core_handoff_listener:start_link() at undefined exit with reason bad return value: {error,eaddrinuse} in context start_error
+2017-01-07 13:26:46.334 [error] <0.260.0> Supervisor riak_core_handoff_sup had child riak_core_handoff_listener_sup started with riak_core_handoff_listener_sup:start_link() at undefined exit with reason {shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}} in context start_error
+2017-01-07 13:26:46.334 [error] <0.254.0> Supervisor riak_core_sup had child riak_core_handoff_sup started with riak_core_handoff_sup:start_link() at undefined exit with reason {shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}} in context start_error
+2017-01-07 13:26:46.335 [error] <0.252.0> CRASH REPORT Process <0.252.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,riak_core_handoff_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}}},{riak_core_app,start,[normal,[]]}} in application_master:init/4 line 134
+2017-01-07 13:26:46.335 [info] <0.7.0> Application riak_core exited with reason: {{shutdown,{failed_to_start_child,riak_core_handoff_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}}},{riak_core_app,start,[normal,[]]}}
+2017-01-07 13:26:46.335 [info] <0.7.0> Application folsom exited with reason: stopped
+2017-01-07 13:26:46.335 [info] <0.7.0> Application bear exited with reason: stopped
+2017-01-07 13:26:46.335 [info] <0.7.0> Application clique exited with reason: stopped
+2017-01-07 13:26:46.335 [info] <0.7.0> Application exometer_core exited with reason: stopped
+2017-01-07 13:26:46.335 [info] <0.7.0> Application setup exited with reason: stopped
+2017-01-07 13:26:46.335 [info] <0.7.0> Application poolboy exited with reason: stopped
+2017-01-07 13:26:46.335 [info] <0.7.0> Application pbkdf2 exited with reason: stopped
+2017-01-07 13:26:46.335 [info] <0.7.0> Application eleveldb exited with reason: stopped
+2017-01-07 13:26:46.335 [info] <0.7.0> Application basho_stats exited with reason: stopped
+2017-01-07 13:26:46.335 [info] <0.198.0> alarm_handler: {clear,{disk_almost_full,"/"}}
+2017-01-07 13:26:46.336 [info] <0.7.0> Application os_mon exited with reason: stopped
+2017-01-07 13:26:46.336 [info] <0.7.0> Application riak_sysmon exited with reason: stopped
+2017-01-07 13:26:46.336 [info] <0.7.0> Application sasl exited with reason: stopped
+2017-01-07 13:27:00.733 [info] <0.7.0> Application lager started on node 'nav_1@127.0.0.1'
+2017-01-07 13:27:00.751 [info] <0.7.0> Application sasl started on node 'nav_1@127.0.0.1'
+2017-01-07 13:27:00.757 [info] <0.7.0> Application riak_sysmon started on node 'nav_1@127.0.0.1'
+2017-01-07 13:27:00.777 [info] <0.7.0> Application os_mon started on node 'nav_1@127.0.0.1'
+2017-01-07 13:27:00.782 [info] <0.7.0> Application basho_stats started on node 'nav_1@127.0.0.1'
+2017-01-07 13:27:00.784 [info] <0.190.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2017-01-07 13:27:00.786 [info] <0.7.0> Application eleveldb started on node 'nav_1@127.0.0.1'
+2017-01-07 13:27:00.788 [info] <0.7.0> Application pbkdf2 started on node 'nav_1@127.0.0.1'
+2017-01-07 13:27:00.790 [info] <0.7.0> Application poolboy started on node 'nav_1@127.0.0.1'
+2017-01-07 13:27:00.801 [info] <0.220.0> Setup running ...
+2017-01-07 13:27:00.802 [info] <0.220.0> Directories verified. Res = ok
+2017-01-07 13:27:00.802 [info] <0.220.0> Setup finished processing hooks (Mode=normal)...
+2017-01-07 13:27:00.802 [info] <0.7.0> Application setup started on node 'nav_1@127.0.0.1'
+2017-01-07 13:27:00.815 [info] <0.227.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2017-01-07 13:27:00.815 [info] <0.7.0> Application exometer_core started on node 'nav_1@127.0.0.1'
+2017-01-07 13:27:00.838 [info] <0.7.0> Application clique started on node 'nav_1@127.0.0.1'
+2017-01-07 13:27:00.842 [info] <0.7.0> Application bear started on node 'nav_1@127.0.0.1'
+2017-01-07 13:27:00.848 [info] <0.7.0> Application folsom started on node 'nav_1@127.0.0.1'
+2017-01-07 13:27:00.880 [error] <0.256.0> CRASH REPORT Process riak_core_handoff_listener with 1 neighbours exited with reason: bad return value: {error,eaddrinuse} in gen_server:init_it/6 line 356
+2017-01-07 13:27:00.881 [error] <0.255.0> Supervisor riak_core_handoff_listener_sup had child riak_core_handoff_listener started with riak_core_handoff_listener:start_link() at undefined exit with reason bad return value: {error,eaddrinuse} in context start_error
+2017-01-07 13:27:00.881 [error] <0.252.0> Supervisor riak_core_handoff_sup had child riak_core_handoff_listener_sup started with riak_core_handoff_listener_sup:start_link() at undefined exit with reason {shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}} in context start_error
+2017-01-07 13:27:00.882 [error] <0.246.0> Supervisor riak_core_sup had child riak_core_handoff_sup started with riak_core_handoff_sup:start_link() at undefined exit with reason {shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}} in context start_error
+2017-01-07 13:27:00.882 [error] <0.244.0> CRASH REPORT Process <0.244.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,riak_core_handoff_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}}},{riak_core_app,start,[normal,[]]}} in application_master:init/4 line 134
+2017-01-07 13:27:00.883 [info] <0.7.0> Application riak_core exited with reason: {{shutdown,{failed_to_start_child,riak_core_handoff_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}}},{riak_core_app,start,[normal,[]]}}
+2017-01-07 13:27:00.883 [info] <0.7.0> Application folsom exited with reason: stopped
+2017-01-07 13:27:00.883 [info] <0.7.0> Application bear exited with reason: stopped
+2017-01-07 13:27:00.883 [info] <0.7.0> Application clique exited with reason: stopped
+2017-01-07 13:27:00.883 [info] <0.7.0> Application exometer_core exited with reason: stopped
+2017-01-07 13:27:00.883 [info] <0.7.0> Application setup exited with reason: stopped
+2017-01-07 13:27:00.883 [info] <0.7.0> Application poolboy exited with reason: stopped
+2017-01-07 13:27:00.883 [info] <0.7.0> Application pbkdf2 exited with reason: stopped
+2017-01-07 13:27:00.883 [info] <0.7.0> Application eleveldb exited with reason: stopped
+2017-01-07 13:27:00.883 [info] <0.7.0> Application basho_stats exited with reason: stopped
+2017-01-07 13:27:00.883 [info] <0.190.0> alarm_handler: {clear,{disk_almost_full,"/"}}
+2017-01-07 13:27:00.883 [info] <0.7.0> Application os_mon exited with reason: stopped
+2017-01-07 13:27:00.884 [info] <0.7.0> Application riak_sysmon exited with reason: stopped
+2017-01-07 13:27:00.884 [info] <0.7.0> Application sasl exited with reason: stopped
+2017-01-07 13:28:52.369 [info] <0.7.0> Application lager started on node 'nav_1@127.0.0.1'
+2017-01-07 13:28:52.387 [info] <0.7.0> Application sasl started on node 'nav_1@127.0.0.1'
+2017-01-07 13:28:52.392 [info] <0.7.0> Application riak_sysmon started on node 'nav_1@127.0.0.1'
+2017-01-07 13:28:52.412 [info] <0.7.0> Application os_mon started on node 'nav_1@127.0.0.1'
+2017-01-07 13:28:52.418 [info] <0.7.0> Application basho_stats started on node 'nav_1@127.0.0.1'
+2017-01-07 13:28:52.420 [info] <0.198.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2017-01-07 13:28:52.423 [info] <0.7.0> Application eleveldb started on node 'nav_1@127.0.0.1'
+2017-01-07 13:28:52.425 [info] <0.7.0> Application pbkdf2 started on node 'nav_1@127.0.0.1'
+2017-01-07 13:28:52.428 [info] <0.7.0> Application poolboy started on node 'nav_1@127.0.0.1'
+2017-01-07 13:28:52.438 [info] <0.228.0> Setup running ...
+2017-01-07 13:28:52.439 [info] <0.228.0> Directories verified. Res = ok
+2017-01-07 13:28:52.439 [info] <0.228.0> Setup finished processing hooks (Mode=normal)...
+2017-01-07 13:28:52.439 [info] <0.7.0> Application setup started on node 'nav_1@127.0.0.1'
+2017-01-07 13:28:52.452 [info] <0.235.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2017-01-07 13:28:52.452 [info] <0.7.0> Application exometer_core started on node 'nav_1@127.0.0.1'
+2017-01-07 13:28:52.474 [info] <0.7.0> Application clique started on node 'nav_1@127.0.0.1'
+2017-01-07 13:28:52.480 [info] <0.7.0> Application bear started on node 'nav_1@127.0.0.1'
+2017-01-07 13:28:52.485 [info] <0.7.0> Application folsom started on node 'nav_1@127.0.0.1'
+2017-01-07 13:28:52.515 [error] <0.264.0> CRASH REPORT Process riak_core_handoff_listener with 1 neighbours exited with reason: bad return value: {error,eaddrinuse} in gen_server:init_it/6 line 356
+2017-01-07 13:28:52.515 [error] <0.263.0> Supervisor riak_core_handoff_listener_sup had child riak_core_handoff_listener started with riak_core_handoff_listener:start_link() at undefined exit with reason bad return value: {error,eaddrinuse} in context start_error
+2017-01-07 13:28:52.516 [error] <0.260.0> Supervisor riak_core_handoff_sup had child riak_core_handoff_listener_sup started with riak_core_handoff_listener_sup:start_link() at undefined exit with reason {shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}} in context start_error
+2017-01-07 13:28:52.516 [error] <0.254.0> Supervisor riak_core_sup had child riak_core_handoff_sup started with riak_core_handoff_sup:start_link() at undefined exit with reason {shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}} in context start_error
+2017-01-07 13:28:52.517 [error] <0.252.0> CRASH REPORT Process <0.252.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,riak_core_handoff_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}}},{riak_core_app,start,[normal,[]]}} in application_master:init/4 line 134
+2017-01-07 13:28:52.517 [info] <0.7.0> Application riak_core exited with reason: {{shutdown,{failed_to_start_child,riak_core_handoff_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}}},{riak_core_app,start,[normal,[]]}}
+2017-01-07 13:28:52.517 [info] <0.7.0> Application folsom exited with reason: stopped
+2017-01-07 13:28:52.517 [info] <0.7.0> Application bear exited with reason: stopped
+2017-01-07 13:28:52.517 [info] <0.7.0> Application clique exited with reason: stopped
+2017-01-07 13:28:52.517 [info] <0.7.0> Application exometer_core exited with reason: stopped
+2017-01-07 13:28:52.517 [info] <0.7.0> Application setup exited with reason: stopped
+2017-01-07 13:28:52.517 [info] <0.7.0> Application poolboy exited with reason: stopped
+2017-01-07 13:28:52.517 [info] <0.7.0> Application pbkdf2 exited with reason: stopped
+2017-01-07 13:28:52.517 [info] <0.7.0> Application eleveldb exited with reason: stopped
+2017-01-07 13:28:52.517 [info] <0.7.0> Application basho_stats exited with reason: stopped
+2017-01-07 13:28:52.518 [info] <0.198.0> alarm_handler: {clear,{disk_almost_full,"/"}}
+2017-01-07 13:28:52.518 [info] <0.7.0> Application os_mon exited with reason: stopped
+2017-01-07 13:28:52.519 [info] <0.7.0> Application riak_sysmon exited with reason: stopped
+2017-01-07 13:28:52.519 [info] <0.7.0> Application sasl exited with reason: stopped
+2017-01-07 13:30:13.293 [info] <0.7.0> Application lager started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:13.312 [info] <0.7.0> Application sasl started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:13.316 [info] <0.7.0> Application riak_sysmon started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:13.336 [info] <0.7.0> Application os_mon started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:13.341 [info] <0.7.0> Application basho_stats started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:13.343 [info] <0.198.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2017-01-07 13:30:13.345 [info] <0.7.0> Application eleveldb started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:13.347 [info] <0.7.0> Application pbkdf2 started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:13.349 [info] <0.7.0> Application poolboy started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:13.360 [info] <0.228.0> Setup running ...
+2017-01-07 13:30:13.360 [info] <0.228.0> Directories verified. Res = ok
+2017-01-07 13:30:13.360 [info] <0.228.0> Setup finished processing hooks (Mode=normal)...
+2017-01-07 13:30:13.360 [info] <0.7.0> Application setup started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:13.373 [info] <0.235.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2017-01-07 13:30:13.373 [info] <0.7.0> Application exometer_core started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:13.393 [info] <0.7.0> Application clique started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:13.399 [info] <0.7.0> Application bear started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:13.404 [info] <0.7.0> Application folsom started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:13.434 [error] <0.264.0> CRASH REPORT Process riak_core_handoff_listener with 1 neighbours exited with reason: bad return value: {error,eaddrinuse} in gen_server:init_it/6 line 356
+2017-01-07 13:30:13.434 [error] <0.263.0> Supervisor riak_core_handoff_listener_sup had child riak_core_handoff_listener started with riak_core_handoff_listener:start_link() at undefined exit with reason bad return value: {error,eaddrinuse} in context start_error
+2017-01-07 13:30:13.435 [error] <0.260.0> Supervisor riak_core_handoff_sup had child riak_core_handoff_listener_sup started with riak_core_handoff_listener_sup:start_link() at undefined exit with reason {shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}} in context start_error
+2017-01-07 13:30:13.435 [error] <0.254.0> Supervisor riak_core_sup had child riak_core_handoff_sup started with riak_core_handoff_sup:start_link() at undefined exit with reason {shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}} in context start_error
+2017-01-07 13:30:13.436 [error] <0.252.0> CRASH REPORT Process <0.252.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,riak_core_handoff_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}}},{riak_core_app,start,[normal,[]]}} in application_master:init/4 line 134
+2017-01-07 13:30:13.436 [info] <0.7.0> Application riak_core exited with reason: {{shutdown,{failed_to_start_child,riak_core_handoff_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}}},{riak_core_app,start,[normal,[]]}}
+2017-01-07 13:30:13.436 [info] <0.7.0> Application folsom exited with reason: stopped
+2017-01-07 13:30:13.436 [info] <0.7.0> Application bear exited with reason: stopped
+2017-01-07 13:30:13.436 [info] <0.7.0> Application clique exited with reason: stopped
+2017-01-07 13:30:13.436 [info] <0.7.0> Application exometer_core exited with reason: stopped
+2017-01-07 13:30:13.436 [info] <0.7.0> Application setup exited with reason: stopped
+2017-01-07 13:30:13.436 [info] <0.7.0> Application poolboy exited with reason: stopped
+2017-01-07 13:30:13.436 [info] <0.7.0> Application pbkdf2 exited with reason: stopped
+2017-01-07 13:30:13.436 [info] <0.7.0> Application eleveldb exited with reason: stopped
+2017-01-07 13:30:13.436 [info] <0.7.0> Application basho_stats exited with reason: stopped
+2017-01-07 13:30:13.436 [info] <0.198.0> alarm_handler: {clear,{disk_almost_full,"/"}}
+2017-01-07 13:30:13.437 [info] <0.7.0> Application os_mon exited with reason: stopped
+2017-01-07 13:30:13.437 [info] <0.7.0> Application riak_sysmon exited with reason: stopped
+2017-01-07 13:30:13.438 [info] <0.7.0> Application sasl exited with reason: stopped
+2017-01-07 13:30:31.879 [info] <0.7.0> Application lager started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:31.897 [info] <0.7.0> Application sasl started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:31.902 [info] <0.7.0> Application riak_sysmon started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:31.921 [info] <0.7.0> Application os_mon started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:31.926 [info] <0.7.0> Application basho_stats started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:31.928 [info] <0.190.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2017-01-07 13:30:31.931 [info] <0.7.0> Application eleveldb started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:31.933 [info] <0.7.0> Application pbkdf2 started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:31.935 [info] <0.7.0> Application poolboy started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:31.946 [info] <0.220.0> Setup running ...
+2017-01-07 13:30:31.946 [info] <0.220.0> Directories verified. Res = ok
+2017-01-07 13:30:31.946 [info] <0.220.0> Setup finished processing hooks (Mode=normal)...
+2017-01-07 13:30:31.946 [info] <0.7.0> Application setup started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:31.960 [info] <0.227.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2017-01-07 13:30:31.960 [info] <0.7.0> Application exometer_core started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:31.981 [info] <0.7.0> Application clique started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:31.985 [info] <0.7.0> Application bear started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:31.990 [info] <0.7.0> Application folsom started on node 'nav_1@127.0.0.1'
+2017-01-07 13:30:32.022 [error] <0.256.0> CRASH REPORT Process riak_core_handoff_listener with 1 neighbours exited with reason: bad return value: {error,eaddrinuse} in gen_server:init_it/6 line 356
+2017-01-07 13:30:32.023 [error] <0.255.0> Supervisor riak_core_handoff_listener_sup had child riak_core_handoff_listener started with riak_core_handoff_listener:start_link() at undefined exit with reason bad return value: {error,eaddrinuse} in context start_error
+2017-01-07 13:30:32.023 [error] <0.252.0> Supervisor riak_core_handoff_sup had child riak_core_handoff_listener_sup started with riak_core_handoff_listener_sup:start_link() at undefined exit with reason {shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}} in context start_error
+2017-01-07 13:30:32.023 [error] <0.246.0> Supervisor riak_core_sup had child riak_core_handoff_sup started with riak_core_handoff_sup:start_link() at undefined exit with reason {shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}} in context start_error
+2017-01-07 13:30:32.024 [error] <0.244.0> CRASH REPORT Process <0.244.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,riak_core_handoff_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}}},{riak_core_app,start,[normal,[]]}} in application_master:init/4 line 134
+2017-01-07 13:30:32.024 [info] <0.7.0> Application riak_core exited with reason: {{shutdown,{failed_to_start_child,riak_core_handoff_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener_sup,{shutdown,{failed_to_start_child,riak_core_handoff_listener,{bad_return_value,{error,eaddrinuse}}}}}}}},{riak_core_app,start,[normal,[]]}}
+2017-01-07 13:30:32.024 [info] <0.7.0> Application folsom exited with reason: stopped
+2017-01-07 13:30:32.024 [info] <0.7.0> Application bear exited with reason: stopped
+2017-01-07 13:30:32.025 [info] <0.7.0> Application clique exited with reason: stopped
+2017-01-07 13:30:32.025 [info] <0.7.0> Application exometer_core exited with reason: stopped
+2017-01-07 13:30:32.025 [info] <0.7.0> Application setup exited with reason: stopped
+2017-01-07 13:30:32.025 [info] <0.7.0> Application poolboy exited with reason: stopped
+2017-01-07 13:30:32.025 [info] <0.7.0> Application pbkdf2 exited with reason: stopped
+2017-01-07 13:30:32.025 [info] <0.7.0> Application eleveldb exited with reason: stopped
+2017-01-07 13:30:32.025 [info] <0.7.0> Application basho_stats exited with reason: stopped
+2017-01-07 13:30:32.025 [info] <0.190.0> alarm_handler: {clear,{disk_almost_full,"/"}}
+2017-01-07 13:30:32.026 [info] <0.7.0> Application os_mon exited with reason: stopped
+2017-01-07 13:30:32.026 [info] <0.7.0> Application riak_sysmon exited with reason: stopped
+2017-01-07 13:30:32.026 [info] <0.7.0> Application sasl exited with reason: stopped
+2017-01-07 13:30:58.134 [info] <0.7.0> Application lager started on node 'nav@127.0.0.1'
+2017-01-07 13:30:58.154 [info] <0.7.0> Application sasl started on node 'nav@127.0.0.1'
+2017-01-07 13:30:58.158 [info] <0.7.0> Application riak_sysmon started on node 'nav@127.0.0.1'
+2017-01-07 13:30:58.180 [info] <0.7.0> Application os_mon started on node 'nav@127.0.0.1'
+2017-01-07 13:30:58.185 [info] <0.7.0> Application basho_stats started on node 'nav@127.0.0.1'
+2017-01-07 13:30:58.187 [info] <0.190.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2017-01-07 13:30:58.189 [info] <0.7.0> Application eleveldb started on node 'nav@127.0.0.1'
+2017-01-07 13:30:58.191 [info] <0.7.0> Application pbkdf2 started on node 'nav@127.0.0.1'
+2017-01-07 13:30:58.193 [info] <0.7.0> Application poolboy started on node 'nav@127.0.0.1'
+2017-01-07 13:30:58.203 [info] <0.220.0> Setup running ...
+2017-01-07 13:30:58.204 [info] <0.220.0> Directories verified. Res = ok
+2017-01-07 13:30:58.204 [info] <0.220.0> Setup finished processing hooks (Mode=normal)...
+2017-01-07 13:30:58.204 [info] <0.7.0> Application setup started on node 'nav@127.0.0.1'
+2017-01-07 13:30:58.217 [info] <0.227.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2017-01-07 13:30:58.217 [info] <0.7.0> Application exometer_core started on node 'nav@127.0.0.1'
+2017-01-07 13:30:58.238 [info] <0.7.0> Application clique started on node 'nav@127.0.0.1'
+2017-01-07 13:30:58.243 [info] <0.7.0> Application bear started on node 'nav@127.0.0.1'
+2017-01-07 13:30:58.248 [info] <0.7.0> Application folsom started on node 'nav@127.0.0.1'
+2017-01-07 13:30:58.282 [warning] <0.260.0>@riak_core_ring_manager:reload_ring:352 No ring file available.
+2017-01-07 13:30:58.400 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2017-01-07 13:30:58.409 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2017-01-07 13:30:58.418 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2017-01-07 13:30:58.426 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2017-01-07 13:30:58.434 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2017-01-07 13:30:58.440 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2017-01-07 13:30:58.447 [info] <0.280.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2017-01-07 13:30:58.477 [info] <0.7.0> Application riak_core started on node 'nav@127.0.0.1'
+2017-01-07 13:30:58.477 [info] <0.7.0> Application logger started on node 'nav@127.0.0.1'
+2017-01-07 13:30:58.489 [info] <0.7.0> Application vyuha started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.127 [info] <0.7.0> Application lager started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.145 [info] <0.7.0> Application sasl started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.150 [info] <0.7.0> Application riak_sysmon started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.167 [info] <0.7.0> Application os_mon started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.173 [info] <0.7.0> Application basho_stats started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.175 [info] <0.198.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2017-01-07 13:31:13.178 [info] <0.7.0> Application eleveldb started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.180 [info] <0.7.0> Application pbkdf2 started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.182 [info] <0.7.0> Application poolboy started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.192 [info] <0.228.0> Setup running ...
+2017-01-07 13:31:13.192 [info] <0.228.0> Directories verified. Res = ok
+2017-01-07 13:31:13.192 [info] <0.228.0> Setup finished processing hooks (Mode=normal)...
+2017-01-07 13:31:13.193 [info] <0.7.0> Application setup started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.205 [info] <0.235.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2017-01-07 13:31:13.205 [info] <0.7.0> Application exometer_core started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.227 [info] <0.7.0> Application clique started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.233 [info] <0.7.0> Application bear started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.237 [info] <0.7.0> Application folsom started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.402 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2017-01-07 13:31:13.409 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2017-01-07 13:31:13.418 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2017-01-07 13:31:13.425 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2017-01-07 13:31:13.432 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2017-01-07 13:31:13.439 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2017-01-07 13:31:13.450 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2017-01-07 13:31:13.483 [info] <0.7.0> Application riak_core started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.484 [info] <0.7.0> Application logger started on node 'nav@127.0.0.1'
+2017-01-07 13:31:13.497 [info] <0.7.0> Application vyuha started on node 'nav@127.0.0.1'
+2017-01-07 14:04:13.302 [info] <0.198.0> alarm_handler: {set,{system_memory_high_watermark,[]}}
+2017-01-07 15:17:13.748 [info] <0.198.0> alarm_handler: {clear,system_memory_high_watermark}
+2017-01-07 15:20:13.773 [info] <0.198.0> alarm_handler: {set,{system_memory_high_watermark,[]}}
+2017-01-08 02:49:38.187 [info] <0.208.0>@riak_core_sysmon_handler:handle_event:92 monitor long_schedule <0.121.0> [{name,os_cmd_port_creator},{initial_call,{erlang,apply,2}},{almost_current_function,{os,start_port_srv_loop,0}},{message_queue_len,0}] [{timeout,178},{in,{os,start_port_srv_loop,0}},{out,{os,start_port_srv_loop,0}}]
+2017-01-08 07:48:26.639 [info] <0.208.0>@riak_core_sysmon_handler:handle_event:92 monitor long_gc <0.288.0> [{name,riak_core_capability},{initial_call,{riak_core_capability,init,1}},{almost_current_function,{gen_server,loop,6}},{message_queue_len,0}] [{timeout,55},{old_heap_block_size,987},{heap_block_size,1598},{mbuf_size,0},{stack_size,24},{old_heap_size,523},{heap_size,110}]
+2017-01-08 07:48:26.639 [info] <0.208.0>@riak_core_sysmon_handler:handle_event:92 monitor long_schedule <0.288.0> [{name,riak_core_capability},{initial_call,{riak_core_capability,init,1}},{almost_current_function,{gen_server,loop,6}},{message_queue_len,0}] [{timeout,131},{in,{gen_server,loop,6}},{out,{gen_server,loop,6}}]
+2017-01-08 07:48:26.639 [info] <0.208.0>@riak_core_sysmon_handler:handle_event:92 monitor long_schedule <0.207.0> [{name,timer_server},{initial_call,{timer,init,1}},{almost_current_function,{gen_server,loop,6}},{message_queue_len,0}] [{timeout,195},{in,{gen_server,loop,6}},{out,undefined}]
+2017-01-08 07:48:26.704 [info] <0.208.0>@riak_core_sysmon_handler:handle_event:92 monitor long_gc <0.287.0> [{name,riak_core_vnode_manager},{initial_call,{riak_core_vnode_manager,init,1}},{almost_current_function,{gen_server,loop,6}},{message_queue_len,0}] [{timeout,141},{old_heap_block_size,1598},{heap_block_size,2586},{mbuf_size,0},{stack_size,39},{old_heap_size,231},{heap_size,445}]
+2017-01-08 07:48:26.757 [info] <0.208.0>@riak_core_sysmon_handler:handle_event:92 monitor long_schedule <0.287.0> [{name,riak_core_vnode_manager},{initial_call,{riak_core_vnode_manager,init,1}},{almost_current_function,{gen_server,loop,6}},{message_queue_len,0}] [{timeout,274},{in,{gen_server,loop,6}},{out,{gen_server,loop,6}}]
+2017-01-08 07:48:26.807 [info] <0.208.0>@riak_core_sysmon_handler:handle_event:92 monitor long_schedule <0.84.0> [{name,ssl_manager},{initial_call,{ssl_manager,init,1}},{almost_current_function,{gen_server,loop,6}},{message_queue_len,0}] [{timeout,67},{in,{gen_server,loop,6}},{out,{gen_server,loop,6}}]
+2017-01-08 07:48:28.661 [info] <0.208.0>@riak_core_sysmon_handler:handle_event:92 monitor long_schedule <0.121.0> [{name,os_cmd_port_creator},{initial_call,{erlang,apply,2}},{almost_current_function,{os,start_port_srv_loop,0}},{message_queue_len,0}] [{timeout,1994},{in,{os,start_port_srv_loop,0}},{out,{os,start_port_srv_loop,0}}]
+2017-01-08 07:48:29.234 [info] <0.198.0> alarm_handler: {clear,system_memory_high_watermark}

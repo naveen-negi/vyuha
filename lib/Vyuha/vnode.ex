@@ -10,9 +10,9 @@ defmodule Vyuha.Vnode do
     {:ok, %{partition: partition}}
   end
 
-  def handle_command(:ping, _sender, %{partition: partition} = state) do
+  def handle_command(:ping, _sender, state) do
     Logger.warn("got a ping request!")
-    {:reply, {:pong, partition}, state}
+    {:reply, :pong, state}
   end
 
   def handle_handoff_command(_fold_req, _sender, state) do
