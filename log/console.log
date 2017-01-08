@@ -26,3 +26,32 @@
 2017-01-08 09:57:13.658 [info] <0.7.0> Application riak_core started on node 'nav@127.0.0.1'
 2017-01-08 09:57:13.659 [info] <0.7.0> Application logger started on node 'nav@127.0.0.1'
 2017-01-08 09:57:13.674 [info] <0.7.0> Application vyuha started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.509 [info] <0.7.0> Application lager started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.528 [info] <0.7.0> Application sasl started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.534 [info] <0.7.0> Application riak_sysmon started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.553 [info] <0.7.0> Application os_mon started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.560 [info] <0.7.0> Application basho_stats started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.562 [info] <0.198.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2017-01-08 11:00:15.562 [info] <0.198.0> alarm_handler: {set,{system_memory_high_watermark,[]}}
+2017-01-08 11:00:15.564 [info] <0.7.0> Application eleveldb started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.566 [info] <0.7.0> Application pbkdf2 started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.568 [info] <0.7.0> Application poolboy started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.579 [info] <0.228.0> Setup running ...
+2017-01-08 11:00:15.579 [info] <0.228.0> Directories verified. Res = ok
+2017-01-08 11:00:15.579 [info] <0.228.0> Setup finished processing hooks (Mode=normal)...
+2017-01-08 11:00:15.580 [info] <0.7.0> Application setup started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.593 [info] <0.235.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2017-01-08 11:00:15.593 [info] <0.7.0> Application exometer_core started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.616 [info] <0.7.0> Application clique started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.620 [info] <0.7.0> Application bear started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.625 [info] <0.7.0> Application folsom started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.779 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2017-01-08 11:00:15.788 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2017-01-08 11:00:15.796 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2017-01-08 11:00:15.804 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2017-01-08 11:00:15.811 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2017-01-08 11:00:15.819 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2017-01-08 11:00:15.827 [info] <0.288.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2017-01-08 11:00:15.860 [info] <0.7.0> Application riak_core started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.860 [info] <0.7.0> Application logger started on node 'nav@127.0.0.1'
+2017-01-08 11:00:15.878 [info] <0.7.0> Application vyuha started on node 'nav@127.0.0.1'
